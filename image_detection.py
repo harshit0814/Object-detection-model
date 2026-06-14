@@ -5,7 +5,7 @@ print("Loading model...")
 model = YOLO("yolov8n.pt")
 print("Model loaded")
 # Detect image
-results = model("image1.jpg")
+results = model("image.jpg")
 # Draw boxes
 annotated_img = results[0].plot()
 # Save output
